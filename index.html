@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="bower_components/normalize-css/normalize.css" media="screen">
+  <link rel="stylesheet" href="style/style.css" media="screen">
+  <title>Homework Week2 Monday</title>
+</head>
+<body>
+
+  <main class ="container-fluid">
+    <form class="columnOne" action="index.html" method="post">
+      <fieldset>
+        <label for="" class="required">FIRST NAME</label>
+        <input type="text" name="firstName" placeholder="First Name">
+        <label for="" class="required">LAST NAME</label>
+        <input type="text" name="lastName" placeholder="Last Name">
+        <label for="" class="required">EMAIL ADDRESS</label>
+        <input type="email" name="email" placeholder="email@email.com">
+        <label for="">COUNTRY</label>
+        <select name="countries">
+          <option value="0">Choose a Country</option>
+          <option value="1">France</option>
+          <option value="2">US</option>
+          <option value="3">Brazil</option>
+          <option value="4">Japan</option>
+        </select>
+        <label for="">BIOGRAPHY</label>
+        <textarea name="bio" rows="8" cols="40"></textarea>
+      </fieldset>
+    </form>
+
+    <form class="columnTwo" action="index.html" method="post">
+      <fieldset>
+        <label for="">PHONE NUMBER</label>
+        <input type="text" name="phoneNumber" placeholder="+351 999 999">
+        <label for="">AFFILATIONS</label>
+        <textarea name="affilation" rows="8" cols="40"></textarea>
+        <label for="">OCCUPATIONS</label>
+        <select name="jobs">
+          <option value="0">Choose an occupation</option>
+          <option value="1">Cat Herder</option>
+          <option value="2">Dog Clothes Designer</option>
+          <option value="3">Extreme Walking</option>
+          <option value="4">Freelance Breathing</option>
+        </select>
+        <label for="">CAT'S NAME</label>
+        <input type="text" name="catName" placeholder="Cat Name">
+        <label for="">FAVORITE GADGET</label>
+        <input type="text" name="gadget" placeholder="Gadgettty">
+      </fieldset>
+    </form>
+
+    <form class="columnThree " action="index.html" method="post">
+      <fieldset>
+        <label for="">TYPE OF TALENT</label>
+        <select class="talent" name="talents">
+          <option value="0">Choose A talent</option>
+          <option value="1">Whistler</option>
+          <option value="2">Dog Speaker</option>
+          <option value="3">Free Form Yodeling</option>
+          <option value="4">Skittles Craftsman</option>
+        </select>
+        <label for="">FAVORITE DRINK</label>
+        <input type="text" name="drink" placeholder="Drink">
+        <label for="">SPECIAL POWER</label>
+        <input type="text" name="powers" placeholder="Powers?">
+        <label for="">WEAPON OF CHOICE</label>
+        <input type="text" name="weapon" placeholder="Gibblets">
+        <label for="">COMMENTS</label>
+        <textarea name="comments" rows="8" cols="40"></textarea>
+      </form>
+    </fieldset>
+  </main>
+
+</body>
+</html>
+
+<script type="text/javascript" src="bower_components/jquery/dist/jquery.min.js"></script>
