@@ -3,25 +3,65 @@
   clear:both;
   display:block;
 }
-
+*{
+  color:white;
+}
 main {
   background:#5BA3D6;
-  height:50vw;
+  height:55.3vw;
   width:100%
+}
+
+main form input:nth-child(n){
+  margin: 3% 5% 0 5%;
+  width:90%;
+  border: 3px white solid;
+  background:#5BA3D6;
+}
+
+main form input:focus{
+  border:3px solid #2A6A98;
+  color:white;
+}
+
+main form input:focus::-webkit-input-placeholder{
+  color:white;
+}
+
+main form input::-webkit-input-placeholder {
+  color:#2A6A98;
+}
+main form label:nth-child(n){
+  margin: 3% 5% 0 5%;
+  width:90%;
+  color:white;
+}
+
+main form select:nth-child(n){
+  margin: 3% 5% 0 5%;
+  background:#5BA3D6;
+  border: 1px gray solid;
+  color:white
+}
+
+main form textarea:nth-child(n){
+  margin: 3% 5% 0 5%;
+  width:90%;
+  background:#5BA3D6;
+  border: 3px white solid;
 }
 
 fieldset{
   float:left;
   display:inline-block;
   width: 32%;
-  margin:0
+  height:50vw;
+  margin:0;
+  border:none;
 }
+
 form label{
   @include clearSides;
 }
 
-
-label.required::after{
-  content: "*";
-  color: red;
-}
+@media (max-width:)
