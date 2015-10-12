@@ -12,45 +12,6 @@ main {
   width:100%
 }
 
-main form input:nth-child(n){
-  margin: 3% 5% 0 5%;
-  width:90%;
-  border: 3px white solid;
-  background:#5BA3D6;
-}
-
-main form input:focus{
-  border:3px solid #2A6A98;
-  color:white;
-}
-
-main form input:focus::-webkit-input-placeholder{
-  color:white;
-}
-
-main form input::-webkit-input-placeholder {
-  color:#2A6A98;
-}
-main form label:nth-child(n){
-  margin: 3% 5% 0 5%;
-  width:90%;
-  color:white;
-}
-
-main form select:nth-child(n){
-  margin: 3% 5% 0 5%;
-  background:#5BA3D6;
-  border: 1px gray solid;
-  color:white
-}
-
-main form textarea:nth-child(n){
-  margin: 3% 5% 0 5%;
-  width:90%;
-  background:#5BA3D6;
-  border: 3px white solid;
-}
-
 fieldset{
   float:left;
   display:inline-block;
@@ -60,8 +21,178 @@ fieldset{
   border:none;
 }
 
+// input area Style
+main form input:nth-child(n){
+  margin: 3% 5% 0 5%;
+  width:90%;
+  border: 3px white solid;
+  background:#5BA3D6;
+}
+
+main form input:focus{
+  border:3px solid #2D6D9B;
+  color:white;
+  outline:none;
+}
+
+main form input:focus::-webkit-input-placeholder{
+  color:white;
+}
+
+main form input::-webkit-input-placeholder {
+  color:#2A6A98;
+}
+
+// Label Style
+main form label:nth-child(n){
+  margin: 3% 5% 0 5%;
+  width:90%;
+  color:white;
+}
+
 form label{
   @include clearSides;
 }
 
-@media (max-width:)
+//Select style
+main form select:nth-child(n){
+  margin: 3% 5% 0 5%;
+  background:#5BA3D6;
+  border: 1px gray solid;
+  color:white;
+}
+
+//text area style
+main form textarea:nth-child(n){
+  margin: 3% 5% 0 5%;
+  width:90%;
+  background:#5BA3D6;
+  border: 3px white solid;
+}
+
+main form textarea:focus{
+  border:3px #2D6D9B solid;
+  outline:none;
+}
+
+@media (min-width:1000px) and (max-width:1500px){
+  main{
+    height:100vw;
+  }
+
+  main .columnOne fieldset:nth-child(1){
+    margin-left:1%
+  }
+  fieldset{
+    width: 31%;
+  }
+
+  // input area Style
+  main form input:nth-child(n){
+    margin:3% 5% 0 0;
+    width:70%;
+    padding:0;
+  }
+
+  // Label Style
+  main form label:nth-child(n){
+    margin: 3% 5% 0 0;
+    width:70%;
+    padding:0;
+  }
+
+  //Select style
+  main form select:nth-child(n){
+    margin: 3% 5% 0 0;
+  }
+
+  //text area style
+  main form textarea:nth-child(n){
+    margin: 3% 5% 0 0%;
+    width:70%;
+    padding:0;
+  }
+
+}
+
+@media (min-width:760px) and (max-width:999px){
+  main {
+    background:#5BA3D6;
+    height:121.1vw;
+    width:100%
+  }
+  main .columnOne fieldset:nth-child(1){
+    margin-left:1%;
+  }
+  fieldset{
+    width: 30%;
+  }
+
+  // input area Style
+  main form input:nth-child(n){
+    margin:3% 5% 0 0;
+    width:70%;
+    padding:0;
+  }
+
+  // Label Style
+  main form label:nth-child(n){
+    margin: 3% 5% 0 0;
+    width:70%;
+    padding:0;
+  }
+
+  //Select style
+  main form select:nth-child(n){
+    margin: 3% 5% 0 0;
+  }
+
+  //text area style
+  main form textarea:nth-child(n){
+    margin: 3% 5% 0 0%;
+    width:70%;
+    padding:0;
+  }
+
+}
+
+@media (min-width:760px) and (max-width:999px){
+  main {
+    background:#5BA3D6;
+    height:121.1vw;
+    width:100%
+  }
+  main .columnOne fieldset:nth-child(1){
+    margin-left:1%;
+  }
+  fieldset{
+    width: 30%;
+  }
+
+  // input area Style
+  main form input:nth-child(n){
+    margin:3% 5% 0 0;
+    width:70%;
+    padding:0;
+  }
+
+  // Label Style
+  main form label:nth-child(n){
+    margin: 3% 5% 0 0;
+    width:70%;
+    padding:0;
+  }
+
+  //Select style
+  main form select:nth-child(n){
+    margin: 3% 5% 0 0;
+  }
+
+  //text area style
+  main form textarea:nth-child(n){
+    margin: 3% 5% 0 0%;
+    width:70%;
+    padding:0;
+  }
+
+}
