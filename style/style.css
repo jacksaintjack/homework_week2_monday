@@ -105,9 +105,7 @@ main form textarea:focus {
 
 @media (min-width: 760px) and (max-width: 999px) {
   main {
-    background: #5BA3D6;
-    height: 121.1vw;
-    width: 100%; }
+    height: 121.1vw; }
   main .columnOne fieldset:nth-child(1) {
     margin-left: 1%; }
   fieldset {
@@ -125,4 +123,29 @@ main form textarea:focus {
   main form textarea:nth-child(n) {
     margin: 3% 5% 0 0%;
     width: 70%;
+    padding: 0; } }
+
+@media (min-width: 100px) and (max-width: 759px) {
+  main {
+    background: #5BA3D6;
+    height: 250vw;
+    width: 100%; }
+  main .columnOne fieldset:nth-child(1) {
+    margin-left: 1%; }
+  fieldset {
+    width: 100%;
+    float: none; }
+  main form input:nth-child(n) {
+    margin: 3% 0 0 0;
+    width: 90%;
+    padding: 0; }
+  main form label:nth-child(n) {
+    margin: 3% 0 0 0;
+    width: 90%;
+    padding: 0; }
+  main form select:nth-child(n) {
+    margin: 3% 0 0 0; }
+  main form textarea:nth-child(n) {
+    margin: 3% 0 0 0;
+    width: 90%;
     padding: 0; } }
